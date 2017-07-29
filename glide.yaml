@@ -1,0 +1,7 @@
+package: github.com/spritualcode/go-hystrix-circuitbreaker
+import:
+- package: github.com/afex/hystrix-go
+  subpackages:
+  - hystrix
+- package: github.com/gorilla/mux
+  version: v1.4.0
